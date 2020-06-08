@@ -1,0 +1,37 @@
+Script started on Mon 08 Jun 2020 06:50:44 PM WIB
+helmi.alfarel@badak:~$ PS1="$ "
+$ echo $GitHubUser
+HelmiAlf
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-185101-83fe-helmi.alfarel/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-185104-bce3-helmi.alfarel/> echo -e $CEKSAYA
+HelmiAlf ZCZCSCRIPTSTART 200608-061301 HelmiAlf
+HelmiAlf HelmiAlf 200604-234928-399b-helmi.alfarel/ 200604-234928 SEQOK SUMOK 399b4253
+HelmiAlf HelmiAlf 200604-234937-cf1d-helmi.alfarel/ 200604-234937 SEQOK SUMOK cf1d081e
+HelmiAlf HelmiAlf 200604-234940-3696-helmi.alfarel/ 200604-234940 SEQOK SUMOK 36965f2a
+HelmiAlf HelmiAlf 200604-234948-692e-helmi.alfarel/ 200604-234948 SEQOK SUMOK 692e9b1d
+HelmiAlf ZCZCSCRIPTSTOP 200608-061447 SEQOK
+
+200608-185108-917d-helmi.alfarel/> echo -e $CEKSEBELA1
+HelmiAlf ZCZCSCRIPTSTART 200608-101301 hnsmchl
+HelmiAlf hnsmchl 200605-180824-676e-hans.michael/ 200605-180824 SEQOK SUMOK 676eb49e
+HelmiAlf hnsmchl 200605-180824-676e-hans.michael/ 200605-180824 SEQNO SUMOK 676eb49e
+HelmiAlf hnsmchl 200605-180830-b7f6-hans.michael/ 200605-180830 SEQOK SUMOK b7f61000
+HelmiAlf hnsmchl 200605-180840-6573-hans.michael/ 200605-180840 SEQOK SUMOK 65736d34
+HelmiAlf ZCZCSCRIPTSTOP 200608-101447 SEQOK
+
+200608-185112-c0fb-helmi.alfarel/> echo -e $CEKSEBELA2
+HelmiAlf ZCZCSCRIPTSTART 200607-223615 ichsandy.rizki
+HelmiAlf ichsandyrizki 200607-223702-7a95-ichsandy.rizki/ 200607-223702 SEQOK SUMOK 7a954ca4
+HelmiAlf ichsandyrizki 200607-223710-62ef-ichsandy.rizki/ 200607-223710 SEQOK SUMOK 62effd5a
+HelmiAlf ichsandyrizki 200607-223725-5b98-ichsandy.rizki/ 200607-223725 SEQOK SUMOK 5b982ceb
+HelmiAlf ichsandyrizki 200607-223825-8ee8-ichsandy.rizki/ 200607-223825 SEQOK SUMOK 8ee834bc
+HelmiAlf ZCZCSCRIPTSTOP 200607-224016 SEQOK
+
+200608-185116-4995-helmi.alfarel/> exit
+exit
+
+Script done on Mon 08 Jun 2020 06:51:20 PM WIB
