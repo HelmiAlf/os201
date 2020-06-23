@@ -1,36 +1,36 @@
 Script started on Tue 09 Jun 2020 12:24:26 PM WIB
-helmi.alfarel@badak:~$ PS1="$ "
+]0;helmi.alfarel@badak: ~helmi.alfarel@badak:~$ PS1="$ "
 $ echo $GitHubUser
 HelmiAlf
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200609-122448-d7e2-helmi.alfarel/>
+200609-122448-d7e2-helmi.alfarel/> 
 $ PS1="\$(eval \$PSTAMP)"
 200609-122455-f95c-helmi.alfarel/> echo -e $CEKSAYA
-HelmiAlf ZCZCSCRIPTSTART 200608-234901 HelmiAlf
-HelmiAlf HelmiAlf 200604-234928-399b-helmi.alfarel/ 200604-234928 SEQOK SUMOK 399b4253
-HelmiAlf HelmiAlf 200604-234937-cf1d-helmi.alfarel/ 200604-234937 SEQOK SUMOK cf1d081e
-HelmiAlf HelmiAlf 200604-234940-3696-helmi.alfarel/ 200604-234940 SEQOK SUMOK 36965f2a
-HelmiAlf HelmiAlf 200604-234948-692e-helmi.alfarel/ 200604-234948 SEQOK SUMOK 692e9b1d
-HelmiAlf ZCZCSCRIPTSTOP 200608-234956 SEQOK
+HelmiAlf ZCZCSCRIPTSTART 200608-234901 HelmiAlf 
+HelmiAlf HelmiAlf 200604-234928-399b-helmi.alfarel/ 200604-234928 SEQOK SUMOK 399b4253 
+HelmiAlf HelmiAlf 200604-234937-cf1d-helmi.alfarel/ 200604-234937 SEQOK SUMOK cf1d081e 
+HelmiAlf HelmiAlf 200604-234940-3696-helmi.alfarel/ 200604-234940 SEQOK SUMOK 36965f2a 
+HelmiAlf HelmiAlf 200604-234948-692e-helmi.alfarel/ 200604-234948 SEQOK SUMOK 692e9b1d 
+HelmiAlf ZCZCSCRIPTSTOP 200608-234956 SEQOK 
 
 200609-122458-c672-helmi.alfarel/> echo -e $CEKSEBELA1
-HelmiAlf ZCZCSCRIPTSTART 200608-182355 hnsmchl
-HelmiAlf hnsmchl 200608-182505-49cd-UAS/ 200605-180824 SEQOK SUMOK 49cd9564
-HelmiAlf hnsmchl 200608-182505-49cd-UAS/ 200605-180824 SEQNO SUMOK 49cd9564
-HelmiAlf hnsmchl 200608-182509-0fea-UAS/ 200605-180830 SEQOK SUMOK 0fea0e9c
-HelmiAlf hnsmchl 200608-182515-b92b-UAS/ 200605-180840 SEQOK SUMOK b92bc350
-HelmiAlf ZCZCSCRIPTSTOP 200608-182525 SEQOK
+HelmiAlf ZCZCSCRIPTSTART 200608-182355 hnsmchl 
+HelmiAlf hnsmchl 200608-182505-49cd-UAS/ 200605-180824 SEQOK SUMOK 49cd9564 
+HelmiAlf hnsmchl 200608-182505-49cd-UAS/ 200605-180824 SEQNO SUMOK 49cd9564 
+HelmiAlf hnsmchl 200608-182509-0fea-UAS/ 200605-180830 SEQOK SUMOK 0fea0e9c 
+HelmiAlf hnsmchl 200608-182515-b92b-UAS/ 200605-180840 SEQOK SUMOK b92bc350 
+HelmiAlf ZCZCSCRIPTSTOP 200608-182525 SEQOK 
 
 200609-122511-ea32-helmi.alfarel/> echo -e $CEKSEBELA2
-HelmiAlf ZCZCSCRIPTSTART 200607-223615 ichsandy.rizki
-HelmiAlf ichsandyrizki 200607-223702-7a95-ichsandy.rizki/ 200607-223702 SEQOK SUMOK 7a954ca4
-HelmiAlf ichsandyrizki 200607-223710-62ef-ichsandy.rizki/ 200607-223710 SEQOK SUMOK 62effd5a
-HelmiAlf ichsandyrizki 200607-223725-5b98-ichsandy.rizki/ 200607-223725 SEQOK SUMOK 5b982ceb
-HelmiAlf ichsandyrizki 200607-223825-8ee8-ichsandy.rizki/ 200607-223825 SEQOK SUMOK 8ee834bc
-HelmiAlf ichsandyrizki 200607-223750-4125-ichsandy.rizki/ 200607-223750 SEQOK SUMOK 4125c971
-HelmiAlf ZCZCSCRIPTSTOP 200607-224016 SEQOK
+HelmiAlf ZCZCSCRIPTSTART 200607-223615 ichsandy.rizki 
+HelmiAlf ichsandyrizki 200607-223702-7a95-ichsandy.rizki/ 200607-223702 SEQOK SUMOK 7a954ca4 
+HelmiAlf ichsandyrizki 200607-223710-62ef-ichsandy.rizki/ 200607-223710 SEQOK SUMOK 62effd5a 
+HelmiAlf ichsandyrizki 200607-223725-5b98-ichsandy.rizki/ 200607-223725 SEQOK SUMOK 5b982ceb 
+HelmiAlf ichsandyrizki 200607-223825-8ee8-ichsandy.rizki/ 200607-223825 SEQOK SUMOK 8ee834bc 
+HelmiAlf ichsandyrizki 200607-223750-4125-ichsandy.rizki/ 200607-223750 SEQOK SUMOK 4125c971 
+HelmiAlf ZCZCSCRIPTSTOP 200607-224016 SEQOK 
 
 200609-122516-664f-helmi.alfarel/> exit
 exit
