@@ -1,0 +1,84 @@
+Script started on Wed 24 Jun 2020 09:04:00 AM WIB
+]0;helmi.alfarel@badak: ~/os201/UAS/TUGAS2helmi.alfarel@badak:~/os201/UAS/TUGAS2$ exitcho $PSTAMPakunGitHub[8PPS1="$ "[4PexitPS1="$ "
+$ PS1="$ "[C[C[4Pexit[C[CPS1="$ "[C[C[KPS1="$ "[C[C[4Pexitcho $PSTAMPakunGitHub[C[C[8PPS1="$ "[C[C[4Pexit[C[C./p02./p021[K[C[C[1Pmake[C[C./p012./p02[C[C[6Pexit[C[CPS1="$ "[C[Cecho $akunGitHub
+HelmiAlf
+$ echo $akunGitHub[C[C[8PPS1="$ "[C[C[4Pexitcho $PSTAMPakunGitHub[C[C[C[C[C[C[C[C[4PPSTAMP
+TMP1=200624-090345; TMP2=0268; echo --TUGAS2/
+$ make clean
+rm -f p00 p07 p03 p06 p05 p01 p04 p02 SharedMemoryFile.bin
+$ ./p00
+bash: ./p00: No such file or directory
+$ makemake
+bash: makemake: command not found
+$ make
+gcc -std=gnu11 -pthread    p00.c p00.h   -o p00
+gcc -std=gnu11 -pthread    p07.c p00.h   -o p07
+gcc -std=gnu11 -pthread    p06.c p00.h   -o p06
+gcc -std=gnu11 -pthread    p03.c p00.h   -o p03
+gcc -std=gnu11 -pthread    p05.c p00.h   -o p05
+gcc -std=gnu11 -pthread    p01.c p00.h   -o p01
+gcc -std=gnu11 -pthread    p04.c p00.h   -o p04
+gcc -std=gnu11 -pthread    p02.c p00.h   -o p02
+$ ./p01
+samuelsamosir27[START PID[9489] PPID[9298]]
+No "SharedMemoryFile.bin" file.
+$ ./p02
+egiffari[START PID[9497] PPID[9298]]
+No "SharedMemoryFile.bin" file.
+$ ./p03
+phazeblaze[START PID[9507] PPID[9298]]
+No "SharedMemoryFile.bin" file.
+$ ./p00
+RafifEL[START PID[9541] PPID[9298]]
+samuelsamosir27[START PID[9542] PPID[9541]]
+egiffari[START PID[9543] PPID[9541]]
+phazeblaze[START PID[9544] PPID[9541]]
+michaelsusanto81[START PID[9545] PPID[9541]]
+HelmiAlf[START PID[9546] PPID[9541]]
+mon23c[START PID[9547] PPID[9541]]
+PakDengklek[START PID[9548] PPID[9541]]
+PakDengklek[progs[00] TIME[02] MUTEX[02] MMAP[OPEN] []]
+mon23c[progs[01] TIME[04] MUTEX[02] MMAP[OPEN] [][]]
+PakDengklek[progs[00] TIME[06] MUTEX[04] MMAP[OPEN] [PakDengklek][]]
+HelmiAlf[progs[02] TIME[08] MUTEX[02] MMAP[OPEN] [PakDengklek][][]]
+PakDengklek[progs[00] TIME[09] MUTEX[05] MMAP[OPEN] [PakDengklek][][]]
+michaelsusanto81[progs[03] TIME[11] MUTEX[02] MMAP[OPEN] [PakDengklek][][][]]
+mon23c[progs[01] TIME[13] MUTEX[04] MMAP[OPEN] [PakDengklek][mon23c][][]]
+PakDengklek[BYEBYE =====  ===== =====]
+phazeblaze[progs[04] TIME[15] MUTEX[02] MMAP[OPEN] [PakDengklek][mon23c][][][]]
+egiffari[progs[05] TIME[17] MUTEX[02] MMAP[OPEN] [PakDengklek][mon23c][][][][]]
+HelmiAlf[progs[02] TIME[19] MUTEX[04] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][][][]]
+mon23c[progs[01] TIME[20] MUTEX[05] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][][][]]
+samuelsamosir27[progs[06] TIME[22] MUTEX[02] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][][][][]]
+RafifEL[progs[07] TIME[23] MUTEX[01] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][][][][][]]
+michaelsusanto81[progs[03] TIME[25] MUTEX[04] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][][][][]]
+mon23c[BYEBYE =====  ===== =====]
+HelmiAlf[progs[02] TIME[26] MUTEX[05] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][][][][]]
+phazeblaze[progs[04] TIME[28] MUTEX[04] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][][][]]
+egiffari[progs[05] TIME[30] MUTEX[04] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][][]]
+michaelsusanto81[progs[03] TIME[31] MUTEX[05] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][][]]
+HelmiAlf[BYEBYE =====  ===== =====]
+samuelsamosir27[progs[06] TIME[33] MUTEX[04] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][samuelsamosir27][]]
+phazeblaze[progs[04] TIME[34] MUTEX[05] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][samuelsamosir27][]]
+RafifEL[progs[07] TIME[35] MUTEX[03] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][samuelsamosir27][RafifEL]]
+michaelsusanto81[BYEBYE =====  ===== =====]
+egiffari[progs[05] TIME[36] MUTEX[05] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][samuelsamosir27][RafifEL]]
+phazeblaze[BYEBYE =====  ===== =====]
+samuelsamosir27[progs[06] TIME[37] MUTEX[05] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][samuelsamosir27][RafifEL]]
+egiffari[BYEBYE =====  ===== =====]
+RafifEL[progs[07] TIME[37] MUTEX[03] MMAP[OPEN] [PakDengklek][mon23c][HelmiAlf][michaelsusanto81][phazeblaze][egiffari][samuelsamosir27][RafifEL]]
+samuelsamosir27[BYEBYE =====  ===== =====]
+RafifEL[BYEBYE =====  ===== =====]
+$ ./p01
+samuelsamosir27[START PID[9758] PPID[9298]]
+CLOSED, BYE BYE ==== ====
+$ ./p02
+egiffari[START PID[9806] PPID[9298]]
+./p03CLOSED, BYE BYE ==== ====
+$ ./p03
+phazeblaze[START PID[9838] PPID[9298]]
+CLOSED, BYE BYE ==== ====
+$ exit
+exit
+
+Script done on Wed 24 Jun 2020 09:06:37 AM WIB

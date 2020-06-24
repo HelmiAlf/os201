@@ -1,22 +1,26 @@
-Script started on Thu 04 Jun 2020 11:49:01 PM WIB
-helmi.alfarel@badak:~$ PS1="$ "
+Script started on Tue 23 Jun 2020 11:37:27 AM WIB
+]0;helmi.alfarel@badak: ~/os201/UAShelmi.alfarel@badak:~/os201/UAS$ PS1="$ "
 $ echo $GitHubUser
-helmiAlf
+HelmiAlf
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200604-234928-399b-helmi.alfarel/>
+200623-113754-4519-UAS/> 
 $ PS1="\$(eval \$PSTAMP)"
-200604-234937-cf1d-helmi.alfarel/> date
-Thu Jun  4 23:49:40 WIB 2020
-200604-234940-3696-helmi.alfarel/> gpg2 --list-keys
+200623-113801-b666-UAS/> dPS1="\$(eval \$PSTAMP)"PS1="\$(eval \$PSTAMP)"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdate
+Tue Jun 23 11:38:18 WIB 2020
+200623-113818-1999-UAS/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/h/helmi.alfarel/.gnupg/pubring.gpg
 -----------------------------------------------------------
 pub   4096R/5F3779AC 2020-06-04
 uid       [ultimate] Helmi Al Farel (OS201 HelmiAlf) <helmi.alfarel@ui.ac.id>
 sub   4096R/87194117 2020-06-04
 
-200604-234948-692e-helmi.alfarel/> exit
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200623-113833-3616-UAS/> exit
 exit
 
-Script done on Thu 04 Jun 2020 11:49:56 PM WIB
+Script done on Tue 23 Jun 2020 11:38:41 AM WIB

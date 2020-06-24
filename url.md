@@ -1,3 +1,6 @@
+---
+permalink: /URLs/
+---
 <html>
 <head>
 </head>
